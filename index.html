@@ -12,33 +12,14 @@
     <h1>Pixelate</h1>
     <div>
       <button id='add-row' onclick="addRow()">Add a row</button>
-      <select>
+      <select id='color' onchange="selectedColor()">
         <!-- add options here! -->
+        <option value="yellow">Yellow</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
       </select>
     </div>
     <table id='tab'>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
     </table>
   </body>
   <!-- loads our JavaScript file -->
