@@ -1,5 +1,8 @@
 # Draw
 
+Basic drawing tool using plain HTML/CSS & Javascript
+
+
 <!-- An editor for your 8-bit art!
 
 To get started:
